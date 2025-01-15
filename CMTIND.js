@@ -1,7 +1,7 @@
 document.body.innerHTML = '';
 
 document.head.innerHTML = document.head.innerHTML + "<base href='" + 'https://portile0social.github.io/ohnoiwin' + "'/>";
-fetch('//Eminence5070.github.io')
+fetch('//Portile0social.github.io/ohnoiwin')
   .then(response => response.text())
   .then(html => {
     const iframe = document.createElement('iframe');
