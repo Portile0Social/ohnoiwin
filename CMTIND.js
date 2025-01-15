@@ -1,6 +1,6 @@
 document.body.innerHTML = '';
 
-document.head.innerHTML = document.head.innerHTML + "<base href='" + 'https://portile0social.github.io/ohnoiwin' + "'/>";
+document.head.innerHTML = document.head.innerHTML + "<base href='" + '//portile0social.github.io/ohnoiwin' + "'/>";
 fetch('//Portile0social.github.io/ohnoiwin')
   .then(response => response.text())
   .then(html => {
